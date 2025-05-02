@@ -90,6 +90,12 @@
 
       /* Sectioning elements */
 
+      figure img {
+      display: block; /* Prevents extra space below the image */
+      max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+      height: auto;    /* Maintains the image's aspect ratio */
+      }
+
       header {
         padding-block: 1em;
         text-align: center;
@@ -159,8 +165,8 @@
         <h3>FOR the Proposition</h3>
 
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="ip_receipt.png" alt="Heatmap of IP Receipts Over Time for Top 10 Countries" />
+          <figcaption>Top 10 Countries by Average IP Receipts Over Time.</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
@@ -176,8 +182,8 @@
         <h3>AGAINST the Proposition</h3>
 
         <figure>
-          <img src="IMAGE_FILENAME" alt="" />
-          <figcaption>BRIEF CAPTION HERE.</figcaption>
+          <img src="trademarks.png" alt="Heatmap of Trademark Activity Over Time for Countries with High Trademark Activity but Low IP Receipts" />
+          <figcaption>Countries with High Trademark Activity but Low IP Receipts Over Time.</figcaption>
         </figure>
 
         <p>Design Decisions and Rationale:</p>
